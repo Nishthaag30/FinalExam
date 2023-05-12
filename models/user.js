@@ -10,7 +10,7 @@ const userSchema = new mongoose.Schema({
     },
     profilePic: {
         type: String,
-        default: '/images/profilePic.jpg',
+        default: '/images/profilePic.jpeg',
         required: true
     },
     likes:[
